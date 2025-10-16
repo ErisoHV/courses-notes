@@ -358,15 +358,17 @@ Desde ahi moverse a la carpeta del proyecto MongoDB e instalar las dependencias:
 pip install -r requirements.txt
 
 Establecer variables de entorno:
+```bash
 set FLASK_APP=platzi-api
 set FLASK_ENV=development
-seT PLATZI_DB_URI=mongodb+srv://admin:HqcSK2obm8zztMWs@curso-platzi-0hwob.mongodb.net/test
+set PLATZI_DB_URI=mongodb+srv://admin:SECRET@curso-platzi-0hwob.mongodb.net/test
+```
 
 Ejecutar:
-flask run
+`flask run`
 
 Si se quiere conectar a esta BD desde consola:
-mongo "mongodb+srv://admin:HqcSK2obm8zztMWs@curso-platzi-0hwob.mongodb.net/test"
+`mongo "mongodb+srv://admin:SECRET@curso-platzi-0hwob.mongodb.net/test"`
 
 ------------------------------------------------------------------------
 
